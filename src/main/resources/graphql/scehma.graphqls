@@ -1,0 +1,11 @@
+type User{
+    userId:ID!,
+    email: String,
+    password: String,
+    role: String
+}
+
+type Query{
+    getAllUser(userId: ID!) : User
+
+}
